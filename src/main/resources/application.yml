@@ -1,19 +1,5 @@
 server:
-<<<<<<< HEAD
-  port:8888
-  
-spring:
-  # Spring Cloud Config Server Repository
-  cloud:
-    config:
-      server:
-        git: 
-        uri: 
-        default-label: main
-        search-paths:
-        - '*service'
-          
-=======
+
   port: 8888
   
 spring:
@@ -26,4 +12,3 @@ spring:
           default-label: main
           search-paths:
           - '*service'
->>>>>>> 01-config-server
