@@ -1,14 +1,11 @@
 server:
-
-  port: 8888
-  
-spring:
-  
+  port: 8888  
+spring:  
   cloud:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/DavidSanchezCabello/Bootcamp-ConfigServer.git
           default-label: main
-          search-paths:
+          search-paths: 
           - '*service'
